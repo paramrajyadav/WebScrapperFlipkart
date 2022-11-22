@@ -56,6 +56,7 @@ try:
         xx=[name[i],rating[i],commentHead[i],custComment[i]]
         mat.append(xx)
 
+
     matrix=pd.DataFrame(mat)
 except:
     matrix="enter a valid product"
